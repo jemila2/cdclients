@@ -2,18 +2,13 @@
   "name": "cdclients",
   "homepage": "https://jemila2.github.io/cdclients/",
   "version": "1.0.0",
-  "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app",
-  "build": "vite build",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-     "start": "node server.js",
-    "server": "nodemon server.js",
-    "client": "cd client && npm start"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
